@@ -1,0 +1,759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-6439790726190568972
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 6
+  m_AudioMixerCount: 0
+--- !u!668709126 &-2507015003364142393
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: customscene.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: fiverNaruto
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637720796422095696
+    buildGUID: 00000000000000000000000000000000
+    platformName: Android
+    platformGroupName: Android
+    options: 16
+    assetBundleOptions: 0
+    outputPath: C:/Users/NOTASH~1/AppData/Local/Temp/DefaultCompany/fiverNaruto/customscene.vrcw
+    crc: 1378400138
+    totalSize: 24180531
+    totalTimeTicks: 1106388636
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Projects/fiverNaruto/customscene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 1761892
+  - path: D:/Projects/fiverNaruto/customscene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 18751256
+  - path: D:/Projects/fiverNaruto/customscene.vrcw/BuildPlayer-SampleScene.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 20941568
+  - path: D:/Projects/fiverNaruto/customscene.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 24176919
+  - path: D:/Projects/fiverNaruto/customscene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 2432
+  - path: D:/Projects/fiverNaruto/fiverNaruto/CAB-b32de5cb628df7761965cf69c6b05d6f
+    role: ResourcesFile
+    id: 5
+    totalSize: 4284
+  - path: D:/Projects/fiverNaruto/fiverNaruto
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1036
+  - path: D:/Projects/fiverNaruto/fiverNaruto.manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 144
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 1106388636
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 2031575
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 63109533
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 970801355
+    depth: 1
+    messages:
+    - type: 3
+      content: HTTPFormUseage:UrlEncoded
+  - stepName: Prepare assets for target platform
+    durationTicks: 4122679
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 692187487
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 692178411
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 96371479
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 96345850
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 162726774
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 508099
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -2507015003364142393}
+  - {fileID: 7030138131258234070}
+  - {fileID: 1589729369646687995}
+  - {fileID: 4977788422692908377}
+  - {fileID: -6439790726190568972}
+  - {fileID: 5090859205783200545}
+--- !u!1126 &1589729369646687995
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-SampleScene.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 1932032
+    offset: 0
+    sourceAssetGUID: 4c3c838003cbc164e8dec5158da3f87f
+    buildTimeAssetPath: Assets/Sounds/sasuke vs itachi theme song_128k.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 3061184
+    offset: 0
+    sourceAssetGUID: ae6aa4a151381394e850a9969d142e74
+    buildTimeAssetPath: "Assets/Sounds/Rauf & Faik - \u043A\u043E\u043B\u044B\u0431\u0435\u043B\u044C\u043D\u0430\u044F
+      (Lyric Video)_128k.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 3091296
+    offset: 0
+    sourceAssetGUID: 391086cf04ea93947bef570e4749558f
+    buildTimeAssetPath: Assets/Sounds/Rick Astley - Never Gonna Give You Up (Official
+      Music Video)_128k.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 3395712
+    offset: 0
+    sourceAssetGUID: fee62783ade32644b8997c4e1ff5e9a4
+    buildTimeAssetPath: Assets/Sounds/Demon Slayer_ Kimetsu no Yaiba Opening Full
+      with lyrics LiSA - Gurenge _128k.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 3924864
+    offset: 0
+    sourceAssetGUID: b025213c9abbcae4c9031db4cc64c72a
+    buildTimeAssetPath: Assets/Sounds/Bmike - Anxiety Official Music Video _128k.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 5536480
+    offset: 0
+    sourceAssetGUID: 4f0ac423e725c0a49b3a6a62815831ea
+    buildTimeAssetPath: Assets/Sounds/Itachi Uchiha Theme Extended_128k.mp3
+--- !u!382020655 &4977788422692908377
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - AWSSDK.CognitoIdentity
+  - VRCSDK2
+  - nunit.framework
+  - librsync.net
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - AWSSDK.Core
+  - System.Buffers
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - AWSSDK.S3
+  - AWSSDK.SecurityToken
+  - ICSharpCode.SharpZipLib
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  m_EditorPlugins:
+  - OVRPlugin
+  - openvr_api
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - zlibwapi
+  - AudioPluginOculusSpatializer
+  - VRCSDK2-Editor
+  - UnityEditor.VR
+  - VRCSDKBase-Editor
+  - DotZLib
+  - log4netPlastic
+  - libopenvr_api
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!1126 &5090859205783200545
+PackedAssets:
+  m_File: 5
+  m_ShortPath: CAB-b32de5cb628df7761965cf69c6b05d6f
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 84
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &7030138131258234070
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
+  m_Overhead: 77103
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 49
+    offset: 78000
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 132
+    offset: 78056
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 252
+    offset: 78192
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 892
+    offset: 78448
+    sourceAssetGUID: b535a39090b1cd94580c4255f17e3219
+    buildTimeAssetPath: Assets/BigFurniturePack/Materials/Black.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 888
+    offset: 79344
+    sourceAssetGUID: cb6da0a2b44e3f64c85714cb72c2a8cc
+    buildTimeAssetPath: Assets/BigFurniturePack/Materials/Red.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 892
+    offset: 80232
+    sourceAssetGUID: 02c1a862f0f8fdd44a4ef880947f51cc
+    buildTimeAssetPath: Assets/BigFurniturePack/Materials/cloth_3.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 892
+    offset: 81128
+    sourceAssetGUID: 60e55fa28ae85034e95e84856a4c4b21
+    buildTimeAssetPath: Assets/Materials/Black.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 912
+    offset: 82024
+    sourceAssetGUID: c199cb1ee74299b4a9f2adc250d27ae1
+    buildTimeAssetPath: Assets/Materials/EmissiveButtom.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 172
+    offset: 82936
+    sourceAssetGUID: be480eb8213c2834591fc083a187471d
+    buildTimeAssetPath: Assets/Materials/HQ MIRROR.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 944
+    offset: 83112
+    sourceAssetGUID: 09839d816d6052b41898147c2d7eb365
+    buildTimeAssetPath: Assets/Materials/Invi.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 172
+    offset: 84056
+    sourceAssetGUID: 90fa371480af24345a9f152b76f5c675
+    buildTimeAssetPath: Assets/Materials/LQ MIRROR.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 1000
+    offset: 84232
+    sourceAssetGUID: 21fcc191a7c1ece42b386ccab2c57e99
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Concrete_Rough_512_roughness.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 968
+    offset: 85232
+    sourceAssetGUID: cc2809fa320616f42853223f61933071
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Pavement_ConcretePlatesMossy_3.6x3.6_1K_albedo.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 904
+    offset: 86200
+    sourceAssetGUID: ea2d671e6fc1f964c8d4ccd89acf9905
+    buildTimeAssetPath: Assets/Materials/fotor_1636409771116.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 904
+    offset: 87104
+    sourceAssetGUID: 8ac459af4cdc8674b930075efc9f5ef7
+    buildTimeAssetPath: Assets/Materials/fotor_1636409915899.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 904
+    offset: 88008
+    sourceAssetGUID: e72ec2a8fe6b22343822f78d3c8a98e3
+    buildTimeAssetPath: Assets/Materials/fotor_1636410032247.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 904
+    offset: 88912
+    sourceAssetGUID: 7e097b49dae54fa48a10aed86628db39
+    buildTimeAssetPath: Assets/Materials/fotor_1636472887311.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 888
+    offset: 89816
+    sourceAssetGUID: 468d19c7cb8b8244aa927a48e257c300
+    buildTimeAssetPath: Assets/Materials/pink.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 956
+    offset: 90704
+    sourceAssetGUID: 6cfd4ff4fff8f6e4eb62d1eb8f26b69a
+    buildTimeAssetPath: Assets/Materials/sharingan6.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 960
+    offset: 91664
+    sourceAssetGUID: 3a326b7bd2176c84a995006b7763aef1
+    buildTimeAssetPath: Assets/Materials/uchihalogo.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 284
+    offset: 92624
+    sourceAssetGUID: 4fb8ea9da059dc04cb8494617b53562b
+    buildTimeAssetPath: Assets/RPG Swords/Materials/Sword_Textures01.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 136
+    offset: 92912
+    sourceAssetGUID: 0583fc35121f60f47bd54108b2d99401
+    buildTimeAssetPath: Assets/SpinnerPrefab/mesh/Materials/texture-bottle2.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 1140
+    offset: 93048
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 800
+    offset: 94192
+    sourceAssetGUID: c22777d6e868e4f2fb421913386b154e
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  - fileID: 25
+    classID: 28
+    packedSize: 1398216
+    offset: 94992
+    sourceAssetGUID: 08f72326c2fdc044cb06d72389fcfdce
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
+  - fileID: 26
+    classID: 28
+    packedSize: 169744
+    offset: 1493208
+    sourceAssetGUID: 0a5235814205e0540a946c9a05614b05
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesMossy_3.6x3.6_1K_albedo.tif
+  - fileID: 27
+    classID: 28
+    packedSize: 58808
+    offset: 1662952
+    sourceAssetGUID: 0b86a55c9f8bd644e96b3b7d8369474d
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesMossy_3.6x3.6_1K_height.tif
+  - fileID: 28
+    classID: 28
+    packedSize: 99956
+    offset: 1721760
+    sourceAssetGUID: 0bca729ef9908654e9f42aaa6ab36c44
+    buildTimeAssetPath: Assets/RPG Swords/Materials/Sword_Textures01.tga
+  - fileID: 29
+    classID: 28
+    packedSize: 1048696
+    offset: 1821720
+    sourceAssetGUID: 14609fb41a88bd2478f291ef77959115
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-5_comp_light.exr
+  - fileID: 30
+    classID: 28
+    packedSize: 234228
+    offset: 2870416
+    sourceAssetGUID: 14ed6e9f05b72ea479801b4c8e91dc54
+    buildTimeAssetPath: Assets/Textures/fotor_1636409771116.jpg
+  - fileID: 31
+    classID: 28
+    packedSize: 1398216
+    offset: 3104648
+    sourceAssetGUID: 1c5235745a943a442ab04db16d47a4b1
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-5_comp_dir.png
+  - fileID: 32
+    classID: 28
+    packedSize: 1398216
+    offset: 4502864
+    sourceAssetGUID: 22d47a722e06d434a83f5bffa0a9e8de
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_dir.png
+  - fileID: 33
+    classID: 28
+    packedSize: 63408
+    offset: 5901080
+    sourceAssetGUID: 289360aa6599c9749b3455f16cf9d914
+    buildTimeAssetPath: Assets/Textures/LQ MIRROR.psd
+  - fileID: 34
+    classID: 28
+    packedSize: 55200
+    offset: 5964488
+    sourceAssetGUID: 28f370e029c4ea940abe22567a5095ed
+    buildTimeAssetPath: Assets/Textures/sharingan6.psd
+  - fileID: 35
+    classID: 28
+    packedSize: 45688
+    offset: 6019688
+    sourceAssetGUID: 2d0975474cd0a0944b233377d364dc1d
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Concrete_Rough_512_roughness.tif
+  - fileID: 36
+    classID: 28
+    packedSize: 1398216
+    offset: 6065376
+    sourceAssetGUID: 3e86a6bb78d912b468f7dae30152db89
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  - fileID: 37
+    classID: 28
+    packedSize: 1398216
+    offset: 7463592
+    sourceAssetGUID: 406afc147b51b1846953b3fd5c305d12
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+  - fileID: 38
+    classID: 28
+    packedSize: 349648
+    offset: 8861808
+    sourceAssetGUID: 4acc9fdd66048cb4e96d08ca021d5f41
+    buildTimeAssetPath: Assets/BigFurniturePack/Textures/cloth_3.jpg
+  - fileID: 39
+    classID: 28
+    packedSize: 71420
+    offset: 9211456
+    sourceAssetGUID: 5ed7190b649fa144789ebd231fcb0934
+    buildTimeAssetPath: Assets/Textures/uchihalogo.psd
+  - fileID: 40
+    classID: 28
+    packedSize: 1048696
+    offset: 9282880
+    sourceAssetGUID: 62e6f22689ea3a349861a36148893243
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+  - fileID: 41
+    classID: 28
+    packedSize: 174888
+    offset: 10331576
+    sourceAssetGUID: 6344bf96fbda94141a525046d088fb23
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  - fileID: 42
+    classID: 28
+    packedSize: 55956
+    offset: 10506464
+    sourceAssetGUID: 8b1f0aa9959d5dc48a4a444ffc218408
+    buildTimeAssetPath: Assets/Textures/fotor_1636409915899.jpg
+  - fileID: 43
+    classID: 28
+    packedSize: 57388
+    offset: 10562424
+    sourceAssetGUID: 8c7747938053b7145b0a364229a72d49
+    buildTimeAssetPath: Assets/Textures/fotor_1636472887311.jpg
+  - fileID: 44
+    classID: 28
+    packedSize: 1048696
+    offset: 10619816
+    sourceAssetGUID: 965a1bbb1d548c64d8f7fec633c5d6da
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  - fileID: 45
+    classID: 28
+    packedSize: 40852
+    offset: 11668512
+    sourceAssetGUID: a81f9ec6f3619834ba19b1d57fe37549
+    buildTimeAssetPath: Assets/Textures/fotor_1636410032247.jpg
+  - fileID: 46
+    classID: 28
+    packedSize: 1048696
+    offset: 11709368
+    sourceAssetGUID: b1ae533befb3ba748a2a649a74bba1b4
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_light.exr
+  - fileID: 47
+    classID: 28
+    packedSize: 260476
+    offset: 12758064
+    sourceAssetGUID: b82421842a99c5945ba9d653a444e73a
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesMossy_3.6x3.6_1K_normal.tif
+  - fileID: 48
+    classID: 28
+    packedSize: 174888
+    offset: 13018544
+    sourceAssetGUID: c4c9da84e501e384cbf8af88e1ff5e99
+    buildTimeAssetPath: Assets/SpinnerPrefab/texture/texture-bottle2.png
+  - fileID: 49
+    classID: 28
+    packedSize: 1048696
+    offset: 13193432
+    sourceAssetGUID: c5b3ece19211d5641a33b142ebf28dbf
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_light.exr
+  - fileID: 50
+    classID: 28
+    packedSize: 1398216
+    offset: 14242128
+    sourceAssetGUID: d2f4e1616b3d2c94695197cb4ad65192
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_dir.png
+  - fileID: 51
+    classID: 28
+    packedSize: 65344
+    offset: 15640344
+    sourceAssetGUID: dbb16a9ae14249b46ba0e20bafc695ae
+    buildTimeAssetPath: Assets/Textures/HQ MIRROR.psd
+  - fileID: 52
+    classID: 28
+    packedSize: 1048696
+    offset: 15705688
+    sourceAssetGUID: e5c39a2f9046efb4fa035a355d465095
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 53
+    classID: 28
+    packedSize: 48684
+    offset: 16754384
+    sourceAssetGUID: f12b0fdc9160a34439fdfd5f35ba7c30
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Concrete_Rough_512_normal.tif
+  - fileID: 54
+    classID: 43
+    packedSize: 31932
+    offset: 16803072
+    sourceAssetGUID: f154c9448c237724c88d815a68b42e56
+    buildTimeAssetPath: Assets/Models&Prefabs/itachichair.fbx
+  - fileID: 55
+    classID: 43
+    packedSize: 4112
+    offset: 16835008
+    sourceAssetGUID: 43991dbc601468e44a784820f8dad169
+    buildTimeAssetPath: Assets/SpinnerPrefab/mesh/bottle2.FBX
+  - fileID: 56
+    classID: 43
+    packedSize: 11664
+    offset: 16839120
+    sourceAssetGUID: 43cf19174db63f549b650fd48a60e071
+    buildTimeAssetPath: Assets/RPG Swords/Katana.FBX
+  - fileID: 57
+    classID: 43
+    packedSize: 22716
+    offset: 16850784
+    sourceAssetGUID: 90c25ff0db82bf64cbc6b8e405018824
+    buildTimeAssetPath: Assets/RPG Swords/sword_epic.FBX
+  - fileID: 58
+    classID: 43
+    packedSize: 13908
+    offset: 16873504
+    sourceAssetGUID: c1ac58f958fd93b49a10161ce774a18e
+    buildTimeAssetPath: Assets/RPG Swords/Rapier.FBX
+  - fileID: 59
+    classID: 43
+    packedSize: 90344
+    offset: 16887416
+    sourceAssetGUID: 009d6939ac268e54eb05326ff8091bd8
+    buildTimeAssetPath: Assets/Models&Prefabs/itachitable.fbx
+  - fileID: 60
+    classID: 48
+    packedSize: 65808
+    offset: 16977760
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 61
+    classID: 48
+    packedSize: 12456
+    offset: 17043568
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 62
+    classID: 48
+    packedSize: 1353456
+    offset: 17056024
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 63
+    classID: 48
+    packedSize: 10032
+    offset: 18409480
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 64
+    classID: 48
+    packedSize: 3668
+    offset: 18419512
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 65
+    classID: 48
+    packedSize: 83696
+    offset: 18423184
+    sourceAssetGUID: 1ccecd9b89b8a4f14bfb64f29ddfcc81
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - fileID: 66
+    classID: 48
+    packedSize: 4432
+    offset: 18506880
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 67
+    classID: 83
+    packedSize: 196
+    offset: 18511312
+    sourceAssetGUID: 391086cf04ea93947bef570e4749558f
+    buildTimeAssetPath: Assets/Sounds/Rick Astley - Never Gonna Give You Up (Official
+      Music Video)_128k.mp3
+  - fileID: 68
+    classID: 83
+    packedSize: 160
+    offset: 18511512
+    sourceAssetGUID: 4c3c838003cbc164e8dec5158da3f87f
+    buildTimeAssetPath: Assets/Sounds/sasuke vs itachi theme song_128k.mp3
+  - fileID: 69
+    classID: 83
+    packedSize: 164
+    offset: 18511672
+    sourceAssetGUID: 4f0ac423e725c0a49b3a6a62815831ea
+    buildTimeAssetPath: Assets/Sounds/Itachi Uchiha Theme Extended_128k.mp3
+  - fileID: 70
+    classID: 83
+    packedSize: 184
+    offset: 18511840
+    sourceAssetGUID: ae6aa4a151381394e850a9969d142e74
+    buildTimeAssetPath: "Assets/Sounds/Rauf & Faik - \u043A\u043E\u043B\u044B\u0431\u0435\u043B\u044C\u043D\u0430\u044F
+      (Lyric Video)_128k.mp3"
+  - fileID: 71
+    classID: 83
+    packedSize: 172
+    offset: 18512024
+    sourceAssetGUID: b025213c9abbcae4c9031db4cc64c72a
+    buildTimeAssetPath: Assets/Sounds/Bmike - Anxiety Official Music Video _128k.mp3
+  - fileID: 72
+    classID: 83
+    packedSize: 204
+    offset: 18512200
+    sourceAssetGUID: fee62783ade32644b8997c4e1ff5e9a4
+    buildTimeAssetPath: Assets/Sounds/Demon Slayer_ Kimetsu no Yaiba Opening Full
+      with lyrics LiSA - Gurenge _128k.mp3
+  - fileID: 73
+    classID: 89
+    packedSize: 98488
+    offset: 18512408
+    sourceAssetGUID: 71f107bb542df6d4c8dd3fd89f346702
+    buildTimeAssetPath: Assets/RPG Swords/Materials/swords_cube.cubemap
+  - fileID: 74
+    classID: 89
+    packedSize: 65808
+    offset: 18610896
+    sourceAssetGUID: 5b2bc1ed519ae764fb658a10d5770fa4
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  - fileID: 75
+    classID: 89
+    packedSize: 65808
+    offset: 18676704
+    sourceAssetGUID: 9290c27ca585a5748827240cfa428ae6
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+  - fileID: 76
+    classID: 115
+    packedSize: 96
+    offset: 76992
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 77
+    classID: 115
+    packedSize: 88
+    offset: 77088
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 78
+    classID: 115
+    packedSize: 96
+    offset: 77176
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 79
+    classID: 115
+    packedSize: 88
+    offset: 77272
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 80
+    classID: 115
+    packedSize: 88
+    offset: 77360
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 81
+    classID: 115
+    packedSize: 112
+    offset: 77448
+    sourceAssetGUID: 8233d90336aea43098adf6dbabd606a2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/ProBuilderMesh.cs
+  - fileID: 82
+    classID: 115
+    packedSize: 80
+    offset: 77560
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 83
+    classID: 115
+    packedSize: 104
+    offset: 77640
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 84
+    classID: 115
+    packedSize: 80
+    offset: 77744
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 85
+    classID: 115
+    packedSize: 96
+    offset: 77824
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 86
+    classID: 115
+    packedSize: 80
+    offset: 77920
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 87
+    classID: 258
+    packedSize: 8744
+    offset: 18742512
+    sourceAssetGUID: 984da3e70568fab4083ff0efad71529c
+    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
